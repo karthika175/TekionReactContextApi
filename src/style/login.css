@@ -1,0 +1,39 @@
+.loginDivContainer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loginDivContainer .loginDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.loginDivContainer .loginDiv .loginForm {
+  background-color: #c1f2ee;
+  border-radius: 10px;
+  border: 0.1rem solid #807d7d;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.loginDivContainer .loginDiv .loginForm .loginTitle {
+  text-align: center;
+}
+
+.loginDivContainer .loginDiv .loginForm .loginSubmit, .loginDivContainer .loginDiv .loginForm .regButton {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 12rem;
+  border-radius: 5px;
+  height: 1.5rem;
+  align-items: center;
+  background-color: #e2c9e5;
+}

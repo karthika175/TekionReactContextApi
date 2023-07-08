@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a{
+  text-decoration: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.headDiv{
+  display: flex;
+  padding: 0.5rem;
+  background-color: #2A2C3C;
+  gap: 1rem;
+  color: #eaeff1;
+  justify-content: center;
+  align-items: center;
+
+}
+.title{
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  gap: 0.5rem;
+  
+}
+#searchDiv{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex: 1;
+}
+.search{
+  width: 30rem;
+  height: 2.5rem;
+  border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
+}
+#searchDiv ion-icon{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.8rem 0.8rem 0.8rem 0;
+  background-color: #ea9287;
+}
+.dropDown select{
+  width: 15rem;
+  height: 2rem;
+  border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
+}
+.singleItem{
+  padding: 0.5rem;
+  border: 0.1rem solid #eaeff1;
+  background-color: #eaeff1;
+}
+.allItem{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+.itemsDiv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  gap: 1rem;
+}
+.itemsDiv a img{
+  width: 20rem;
+  height: 15rem;
+}
+.commonDetailsDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating{
+  display: flex;
+  align-items: center;
+}
+.submitButton button{
+  width: 100%;
+  height: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  background-color: #f5b3aa;
+
+}
+/* .submitButton button:hover{
+  background-color: #201f1f;
+  color: #eaeff1;
+} */
+.clicked{
+  background-color: fuchsia;
+  color: #eaeff1;
+}
+.descriptionJs{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  
+
+}
+.details{
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  
+  align-items:space-around;
+}
+.details p{
+  padding: 1rem;
+}
+.imgDiv img{
+  width: 30rem;
+  height: 30rem;
+}
+.discount{
+  background-color: #f6c3c0;
+  animation: 2s linear 0s infinite alternate rise, 2s linear 0s infinite
+  alternate bounce;
+  width: 25rem;
+  border-radius: 0.3rem;
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(110vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes bounce {
+  from {
+    transform: translateX(20vw);
+  }
+  to {
+    transform: translateX(10vw);
+  }
+}
+#description h2{
+  padding: 1rem;
+}
+.moveToOtherPages a ion-icon{
+  width: 2rem;
+  height: 2rem;
+}

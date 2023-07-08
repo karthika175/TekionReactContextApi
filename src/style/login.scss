@@ -1,0 +1,40 @@
+.loginDivContainer{
+    display: flex;
+    height: 100vh;
+    width:100vw;
+   
+    .loginDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+
+        .loginForm{
+        background-color: #c1f2ee;
+        border-radius: 10px;
+        border: 0.1rem solid #807d7d;
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1rem;
+
+            .loginTitle{
+                text-align: center;
+            }
+            .loginSubmit, .regButton{
+                display: flex;
+                align-self: center;
+                justify-content: center;
+                width: 12rem;
+                border-radius: 5px;
+                height: 1.5rem;
+                align-items: center;
+                background-color: #e2c9e5;
+            }
+    
+        }
+   
+    }
+}

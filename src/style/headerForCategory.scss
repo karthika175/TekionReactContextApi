@@ -1,0 +1,19 @@
+.headDiv{
+    justify-content: space-between;
+    
+        .backTitle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            float: left;
+            
+        }
+        .dropCartLogin{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            
+        }
+
+    }

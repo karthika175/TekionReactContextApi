@@ -1,0 +1,27 @@
+.main {
+  z-index: 3;
+}
+
+.main .popup {
+  height: 10rem;
+  width: 25%;
+  background-color: #93c1b3;
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  border-radius: 10px;
+}
+
+.main .popup .popupHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 0 15px;
+  border-bottom: 2px solid #000000;
+}
+
+.main .popup .popupHeader .closeButton {
+  padding: 0.2rem 0.8rem 0.5rem 0.8rem;
+  margin: 0.4rem;
+  border-radius: 5px;
+  background-color: #ff0000;
+}
